@@ -6,9 +6,12 @@ public class Card {
 	String suit;
 	int rankValue;
 	
-	String[] ranks = {"Jkr", "2", "3", "4", "5", "6", "7", "8", "9", "J", "Q", "K", "A"};
-	String[]  suits = {"♦", "♣", "♥", "♠"};
+	static String[] ranks = {"Jkr", "2", "3", "4", "5", "6", "7", "8", "9", "J", "Q", "K", "A"};
+	static String[] suits = {"♦", "♣", "♥", "♠"};
 	Card(String rank, String suit) {
+//		this.rank = ranks[new Random().nextInt(ranks.length)];
+//		this.suit = suits[new Random().nextInt(suits.length)];
+		
 		this.rank = rank;
 		this.suit = suit;
 		
