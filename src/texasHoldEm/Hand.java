@@ -1,5 +1,6 @@
 			cards[i] = new Card(Card.ranks[i], "♦");
 <<<<<<< HEAD
+<<<<<<< HEAD
 			cardsRank[i] = cards[i].rank;
 			
 		}
@@ -49,5 +50,7 @@
 		return 0;
 	}
 }
+=======
+>>>>>>> 1056888... the flush is working now
 =======
 >>>>>>> 1056888... the flush is working now
