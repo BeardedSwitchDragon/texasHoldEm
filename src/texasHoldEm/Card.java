@@ -6,7 +6,7 @@ public class Card {
 	String suit;
 	int rankValue;
 	
-	static String[] ranks = {"Jkr", "2", "3", "4", "5", "6", "7", "8", "9", "10" ,"J", "Q", "K", "A"};
+	static String[] ranks = {"Jkr", "2", "3", "4", "5", "6", "7", "8", "9", "J", "Q", "K", "A"};
 	static String[] suits = {"♦", "♣", "♥", "♠"};
 	Card(String rank, String suit) {
 //		this.rank = ranks[new Random().nextInt(ranks.length)];

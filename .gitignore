@@ -1,4 +1,7 @@
 
 *.class
 bin/texasHoldEm/Poker.class
+<<<<<<< HEAD
 *.class
+=======
+>>>>>>> 1056888... the flush is working now
