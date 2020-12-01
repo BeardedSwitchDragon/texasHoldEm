@@ -43,9 +43,9 @@ public class Hand {
 	
 	public int checkFlush() {
 		for (int i = 1; i < 5; i++) {
-			if (cards[i-1].suit != cards[i].suit) {
+			if (cards[i-1].suit == cards[i].suit) {
 				if (i == 4) {
-					if (deckValue >= 60) {
+					if (deckValue >= 55) {
 						return 10;
 					} else {
 						return 5;
